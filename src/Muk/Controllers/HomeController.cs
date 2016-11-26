@@ -13,6 +13,15 @@ namespace Muk.Controllers
             return View();
         }
 
+        /// <summary>
+        /// First!!
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Directives()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
