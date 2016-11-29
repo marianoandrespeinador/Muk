@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Muk", "src\Muk\Muk.xproj", "{06546141-B79F-454C-8D05-D52496DB28B0}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Muk.Data", "src\Muk.Data\Muk.Data.xproj", "{AFAE2981-371C-44B2-A7DC-82BEE7CE2242}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Muk.Models", "src\Muk.Models\Muk.Models.xproj", "{4836D79C-A7CC-46B8-920D-573414700470}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Muk.Services", "src\Muk.Services\Muk.Services.xproj", "{32D62E1E-835C-4788-A6E7-656AF9A35351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +28,26 @@ Global
 		{06546141-B79F-454C-8D05-D52496DB28B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06546141-B79F-454C-8D05-D52496DB28B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06546141-B79F-454C-8D05-D52496DB28B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAE2981-371C-44B2-A7DC-82BEE7CE2242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAE2981-371C-44B2-A7DC-82BEE7CE2242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAE2981-371C-44B2-A7DC-82BEE7CE2242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAE2981-371C-44B2-A7DC-82BEE7CE2242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4836D79C-A7CC-46B8-920D-573414700470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4836D79C-A7CC-46B8-920D-573414700470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4836D79C-A7CC-46B8-920D-573414700470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4836D79C-A7CC-46B8-920D-573414700470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D62E1E-835C-4788-A6E7-656AF9A35351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D62E1E-835C-4788-A6E7-656AF9A35351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D62E1E-835C-4788-A6E7-656AF9A35351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D62E1E-835C-4788-A6E7-656AF9A35351}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{06546141-B79F-454C-8D05-D52496DB28B0} = {BD555EE2-F18D-4EB8-B65B-471F5EFBC4E2}
+		{AFAE2981-371C-44B2-A7DC-82BEE7CE2242} = {BD555EE2-F18D-4EB8-B65B-471F5EFBC4E2}
+		{4836D79C-A7CC-46B8-920D-573414700470} = {BD555EE2-F18D-4EB8-B65B-471F5EFBC4E2}
+		{32D62E1E-835C-4788-A6E7-656AF9A35351} = {BD555EE2-F18D-4EB8-B65B-471F5EFBC4E2}
 	EndGlobalSection
 EndGlobal

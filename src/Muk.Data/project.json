@@ -1,0 +1,20 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "tools": {
+    "Microsoft.EntityFrameworkCore.Tools": "1.1.0-preview4-final"
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.1",
+    "Pomelo.EntityFrameworkCore.MySql": "1.1.0-*",
+    "Microsoft.EntityFrameworkCore.Tools": "1.1.0-preview4-final",
+    "Muk.Models": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
